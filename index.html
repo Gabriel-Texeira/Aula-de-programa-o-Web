@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ONG Biblioteca de Ouro</title>
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
 
@@ -15,55 +15,27 @@
     <h1>ONG Biblioteca de Ouro</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre a Organização</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="voluntariado.html">Voluntariado</a></li>
-        <li><a href="doacoes.html">Doações</a></li>
-        <li><a href="contato.html">Fale Conosco</a></li>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre a Organização</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#voluntariado">Voluntariado</a></li>
+        <li><a href="#doacoes">Doações</a></li>
+        <li><a href="#contato">Fale Conosco</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Missão</h2>
-      <p>Promover ensino e projetos sociais nas comunidades.</p>
-
-      <h2>Visão</h2>
-      <p>Ser referência em transformação social no Brasil.</p>
-
-      <h2>Valores</h2>
-      <ul>
-        <li>Transparência</li>
-        <li>Empatia</li>
-        <li>Compromisso</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Projetos em Destaque</h2>
-      <article>
-        <h3>Projeto Criando Educação</h3>
-        <p>Aulas de reforço para crianças e adolescentes.</p>
-      </article>
-      <article>
-        <h3>Projeto Mãos que Ajudam</h3>
-        <p>Capacitação profissional para jovens entre 16 e 23 anos.</p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Participe!</h2>
-      <p>Seja voluntário ou faça uma doação para transformar vidas.</p>
-      <a href="voluntariado.html">Quero ser voluntário</a>
-      <a href="doacoes.html">Quero doar</a>
-    </section>
+  <main id="app">
   </main>
 
   <footer>
     <p>&copy; 2025 ONG Biblioteca de Ouro</p>
   </footer>
 
+  <script src="js/templates.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/formValidator.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
